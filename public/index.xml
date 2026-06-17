@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sum&#39;s Blog</title>
+    <link>https://sumone.xyz/</link>
+    <description>Recent content on Sum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 17 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://sumone.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>https://sumone.xyz/about/</link>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://sumone.xyz/about/</guid>
+      <description>&lt;p&gt;Hello, I am sum from India. I share my stories and ideas here. I hope that keeps you engaged and entertained.&lt;/p&gt;
+&lt;p&gt;his website is not meant for hosting sponsored posts or ads. Note that all such requests will be ignored.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://sumone.xyz/contact/</link>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://sumone.xyz/contact/</guid>
+      <description>&lt;h2 id=&#34;email&#34;&gt;Email&lt;/h2&gt;
+&lt;p&gt;Email address: &lt;code&gt;sum [at] sumone [dot] xyz&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>More</title>
+      <link>https://sumone.xyz/more/</link>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://sumone.xyz/more/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://sumone.xyz/social&#34;&gt;My social profiles&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://sumone.xyz/free-software&#34;&gt;Free Software&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://sumone.xyz/books&#34;&gt;Books&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My Online Profiles</title>
+      <link>https://sumone.xyz/social/</link>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://sumone.xyz/social/</guid>
+      <description>&lt;p&gt;List of my online profiles&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://gitlab.com/sumone&#34;&gt;gitlab.com&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Codeberg - &lt;a href=&#34;https://codeberg.org/sum&#34;&gt;sum&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Quotes from the Books I read</title>
+      <link>https://sumone.xyz/book-quotes/</link>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://sumone.xyz/book-quotes/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

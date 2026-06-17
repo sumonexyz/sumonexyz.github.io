@@ -1,0 +1,17 @@
+<footer class="footer">
+    <!-- Option for user to inject custom html -->
+    {{ if .Site.Params.CustomFooterHTML }}
+    {{ .Site.Params.CustomFooterHTML | safeHTML }}
+    {{ end }}
+
+    {{ if .Site.Params.footer }}
+    <span>&copy; {{ now.Year }} {{ .Site.Params.Footer}}</span>
+    {{ end }}
+    <span>
+        Made using <a target="_blank" href="https://github.com/526avijitgupta/gokarna">Gokarna</a> in Hugo.
+	<br>
+	<a href="https://codeberg.org/ravidwivedi/ravidwivedi.in">Source code</a>
+	<br>
+	<a href="/privacy-policy">Privacy Policy</a>
+    </span>
+</footer>

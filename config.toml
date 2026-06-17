@@ -1,0 +1,147 @@
+baseURL = "https://sumone.xyz"
+defaultContentLanguage = "en"
+languageCode = "en"
+
+title = "Sum's Blog"
+
+theme = "gokarna"
+
+# Automatically generate robots.txt
+enableRobotsTXT = true
+
+[menu]
+  [[menu.main]]
+    pageRef="/"
+    name = 'Home'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    pageRef="posts"
+    name = 'Posts'
+    url = '/posts/'
+    weight = 20
+  [[menu.main]]
+    pageRef="about"
+    name = 'About'
+    url = '/about/'
+    weight = 30
+  [[menu.main]]
+    pageRef="tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 40
+  [[menu.main]]
+    pageRef = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 50
+  [[menu.main]]
+    pageRef = "gpg"
+    name = "GPG"
+    url = "/gpg/"
+    weight = 60
+  [[menu.main]]
+    pageRef = "social"
+    name = "Social"
+    url = "/social"
+    weight = 61
+  [[menu.main]]
+    pageRef = "more"
+    name = "More"
+    url = "/more"
+    weight = 70
+  [[menu.main]]
+    pageRef = "privacy-policy"
+    name = "Privacy Policy"
+    url = "/privacy-policy"
+    weight = 70
+  [[menu.main]]
+    pre = "<span data-feather='rss'></span>"
+    url = "/posts/index.xml"
+    weight = 120
+
+[params]
+  # URL for the avatar on homepage
+  avatarURL = "/images/avatar.png"
+
+  # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
+  avatarSize = ""
+
+  # Description to display on homepage
+  description = "We live, and then we decide what to live for :)"
+
+  # Accent color is displayed when you hover over <a> tags
+  accentColor = "#FF4D4D"
+
+  # You can use this to inject any HTML in the <head> tag.
+  # Ideal usecase for this is to import custom js/css or add your analytics snippet
+  customHeadHTML = "<link rel=stylesheet href=\"/css/main.css\"></link>"
+
+  # Keywords relevant for SEO
+  metaKeywords = ["blog", "gokarna", "hugo"]
+
+  # If you want to display posts on the homepage, the options are
+  # "popular" (order posts by weight), "recent" (order posts by date)
+  # or "" (do not display, default option)
+  showPostsOnHomePage = "recent"
+
+  # Footer text
+  footer = "CC-BY-SA 4.0 SUMONE"
+
+[params.author]
+name = "Sumit Kumar"
+contact = "https://sumone.xyz/contact"
+
+socialIcons = [
+    {name = "email", url = "mailto:sum@sumone.xyz"},
+    {name = "codeberg", url = "https://codeberg.org/sum"}
+  ]
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.blackFriday]
+    angledQuotes = false
+    footnoteAnchorPrefix = ""
+    footnoteReturnLinkContents = ""
+    fractions = true
+    hrefTargetBlank = false
+    latexDashes = true
+    nofollowLinks = false
+    noreferrerLinks = false
+    plainIDAnchors = true
+    skipHTML = false
+    smartDashes = true
+    smartypants = true
+    smartypantsQuotesNBSP = false
+    taskLists = true
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
