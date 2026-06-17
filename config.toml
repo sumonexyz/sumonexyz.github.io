@@ -86,7 +86,7 @@ enableRobotsTXT = true
   showPostsOnHomePage = "recent"
 
   # Footer text
-  footer = "CC-BY-SA 4.0 SUMONE"
+  #footer = "CC-BY-SA 4.0 SUMONE"
 
 [params.author]
 name = "Sumit Kumar"
