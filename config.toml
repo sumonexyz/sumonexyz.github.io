@@ -46,16 +46,6 @@ enableRobotsTXT = true
     url = "/social"
     weight = 61
   [[menu.main]]
-    pageRef = "more"
-    name = "More"
-    url = "/more"
-    weight = 70
-  [[menu.main]]
-    pageRef = "privacy-policy"
-    name = "Privacy Policy"
-    url = "/privacy-policy"
-    weight = 70
-  [[menu.main]]
     pre = "<span data-feather='rss'></span>"
     url = "/posts/index.xml"
     weight = 120
