@@ -2,17 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sum&#39;s Blog</title>
-    <link>https://sumone.xyz/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Sum&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 17 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://sumone.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GPG Keys</title>
+      <link>http://localhost:1313/gpg/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/gpg/</guid>
+      <description>&lt;p&gt;If you don&amp;rsquo;t know what gpg key is, Check out an &lt;a href=&#34;https://wiki.archlinux.org/title/GnuPG#Create_a_key_pair&#34;&gt;introduction to gpg🛡️&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Text file of my public GPG key is &lt;a href=&#34;http://localhost:1313/files/sum.asc&#34;&gt;here🔐&lt;/a&gt;. cv25519 2026-06-24&lt;/p&gt;
+&lt;p&gt;To import my key, run the following command one your fav Terminal:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;curl &#39;https://sumone.xyz/files/sum.asc&#39; | gpg --import&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;🧬 Fingerprint is:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;3E09 F8C7 FC2C 8C06 1B51 4E4B 8C5B 35C8 CD92 4311&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>About me</title>
-      <link>https://sumone.xyz/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://sumone.xyz/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;p&gt;Hello, I am sum from India. I share my stories and ideas here. I hope that keeps you engaged and entertained.&lt;/p&gt;
 &lt;p&gt;his website is not meant for hosting sponsored posts or ads. Note that all such requests will be ignored.&lt;/p&gt;
 </description>
@@ -20,10 +35,10 @@
     
     <item>
       <title>Contact</title>
-      <link>https://sumone.xyz/contact/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://sumone.xyz/contact/</guid>
+      <guid>http://localhost:1313/contact/</guid>
       <description>&lt;h2 id=&#34;email&#34;&gt;Email&lt;/h2&gt;
 &lt;p&gt;Email address: &lt;code&gt;sum [at] sumone [dot] xyz&lt;/code&gt;&lt;/p&gt;
 </description>
@@ -31,19 +46,19 @@
     
     <item>
       <title>More</title>
-      <link>https://sumone.xyz/more/</link>
+      <link>http://localhost:1313/more/</link>
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://sumone.xyz/more/</guid>
+      <guid>http://localhost:1313/more/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://sumone.xyz/social&#34;&gt;My social profiles&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/social&#34;&gt;My social profiles&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://sumone.xyz/free-software&#34;&gt;Free Software&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/free-software&#34;&gt;Free Software&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://sumone.xyz/books&#34;&gt;Books&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/books&#34;&gt;Books&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -51,10 +66,10 @@
     
     <item>
       <title>My Online Profiles</title>
-      <link>https://sumone.xyz/social/</link>
+      <link>http://localhost:1313/social/</link>
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://sumone.xyz/social/</guid>
+      <guid>http://localhost:1313/social/</guid>
       <description>&lt;p&gt;List of my online profiles&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -69,11 +84,21 @@
     
     <item>
       <title>Quotes from the Books I read</title>
-      <link>https://sumone.xyz/book-quotes/</link>
+      <link>http://localhost:1313/book-quotes/</link>
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://sumone.xyz/book-quotes/</guid>
+      <guid>http://localhost:1313/book-quotes/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/whoami/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/whoami/</guid>
+      <description>&lt;p&gt;dfadfddfaf&lt;/p&gt;
+</description>
     </item>
     
   </channel>
